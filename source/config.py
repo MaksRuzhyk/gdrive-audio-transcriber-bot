@@ -6,6 +6,8 @@ from pathlib import Path
 
 load_dotenv()
 
+MISTRAL_API = os.getenv('MISTRAL_API')
+
 #Підвантаження ID директорії з дзвінками і ID звіту
 
 GOOGLE_APPLICATION_CREDENTIALS = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
